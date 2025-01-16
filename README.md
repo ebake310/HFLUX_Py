@@ -68,6 +68,7 @@ For Windows:
 - `cd C:/Users/ebaker/Documents/HFLUX_Py-main/Python/Scripts/`
 - `py -m PyInstaller --onefile --paths='Users/ebaker/Documents/HFLUX_Py-main/Python' --add-data='/Users/ebaker/Documents/HFLUX_Py-main/Python/Scripts/hflux_logo.png':'.' -w --name='HFLUX Stream Modeling' gui_demo.py`
 
+- Doesn't work error of Script file 'Stream' does not exist. 
 The executable will be located in the 'dist' folder within the Scripts directory. You are free to move it to whereever you would like on your computer and run it from there!
 Enjoy!
 
