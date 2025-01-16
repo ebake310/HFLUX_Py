@@ -47,6 +47,8 @@ The customer had a program written in MATLAB, which is used to model stream temp
 - Clone the repository into you're desired location.
 - In your terminal execute the command: `pip install requirements.txt`
   - You should see the packages being installed
+  - Or you can individually install each of these packages
+  - You might also need to install PyInstaller. Use the command 'pip install pyinstaller'
 - Change directory into the Python Folder
 
 # 💻 GUI Preparation 💻:
@@ -61,7 +63,7 @@ For mac:
 
 For Windows:
 - `cd /your/path/to/StreamModeling2024/Python/Scripts/`
-- `$py -m PyInstaller --onefile --paths='/your/path/to/SeniorSem/StreamModeling2024/Python' --add-data='/your/path/to/StreamModeling2024/Python/Scripts/hflux_logo.png':'.' -w --name='HFLUX Stream Modeling' gui_demo.py`
+- `py -m PyInstaller --onefile --paths='/your/path/to/SeniorSem/StreamModeling2024/Python' --add-data='/your/path/to/StreamModeling2024/Python/Scripts/hflux_logo.png':'.' -w --name='HFLUX Stream Modeling' gui_demo.py`
 
 The executable will be located in the 'dist' folder within the Scripts directory. You are free to move it to whereever you would like on your computer and run it from there!
 Enjoy!
