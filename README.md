@@ -48,7 +48,7 @@ The customer had a program written in MATLAB, which is used to model stream temp
 - In your terminal execute the command: `pip install requirements.txt`
   - You should see the packages being installed
   - Or you can individually install each of these packages
-  - You might also need to install PyInstaller. Use the command 'pip install pyinstaller'
+  - You might also need to install PyInstaller. Use the command: `pip install pyinstaller`
 - Change directory into the Python Folder
 
 # 💻 GUI Preparation 💻:
