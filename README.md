@@ -1,4 +1,4 @@
-# 2024 CS 410 Senior Seminar
+# HFLUX_Py
 
 ## Stream Temperature Modeling
 
