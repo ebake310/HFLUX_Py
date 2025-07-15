@@ -66,6 +66,7 @@ For mac:
 For Windows:
 - `cd /your/path/to/HFLUX_Py/Python/Scripts/`
 - `py -m PyInstaller --onefile --paths='/your/path/to/HFLUX_Py/Python' --add-data='/your/path/to/HFLUX_Py/Python/Scripts/hflux_logo.png':'.' -w --name='HFLUX Stream Modeling' gui_demo.py`
+
 ex:
   - `cd C:/Users/ebaker/Documents/HFLUX_Py-main/Python/Scripts/`
   - `py -m PyInstaller --onefile --paths='Users/ebaker/Documents/HFLUX_Py-main/Python' --add-data='/Users/ebaker/Documents/HFLUX_Py-main/Python/Scripts/hflux_logo.png':'.' -w --name='HFLUX Stream Modeling' gui_demo.py`
