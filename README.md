@@ -45,9 +45,11 @@ The customer had a program written in MATLAB, which is used to model stream temp
 # 🖇️ INSTALLATION STEPS 🖇️
 - Open your terminal on your operating system
 - Clone the repository into you're desired location.
-- In your terminal execute the command: `pip install requirements.txt` or 'pip3 install requirements.txt`
+- In your terminal execute the command: `pip install requirements.txt` or  `pip3 install requirements.txt`
   - You should see the packages being installed
-  - Or you can individually install each of these packages
+  - If this doesnt work:
+    - Try excecuting command `pip install -r /path/to/requirements.txt`
+    - Or you can individually install each of these packages
   - You might also need to install PyInstaller. Use the command: `pip install pyinstaller` or `pip3 install pyinstaller`
 - Change directory into the Python Folder
 
